@@ -4,7 +4,7 @@
   "description": "node/express server for web app",
   "main": "server.js",
   "scripts": {
-    "test": "npm run test"
+    "start": "node server.js"
   },
   "author": "Vijay Rana",
   "license": "ISC",
