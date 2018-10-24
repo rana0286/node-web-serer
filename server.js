@@ -40,6 +40,12 @@ app.get('/about', (req, res) => {
   });
 })
 
+app.get('/projects', (req, res) => {
+  res.render('projects.hbs', {
+    pageTitle: 'Projects'
+  });
+})
+
 app.listen(port, () => {
   console.log(`Sever is listning at ${port}`);
 });
