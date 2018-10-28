@@ -4,6 +4,8 @@
   "description": "node/express server for web app",
   "main": "server.js",
   "scripts": {
+    "test": "mocha **/*.test.js",
+    "test-watch": "nodemon --exec \"npm test\"",
     "start": "node server.js"
   },
   "author": "Vijay Rana",
@@ -11,5 +13,9 @@
   "dependencies": {
     "express": "^4.16.4",
     "hbs": "^4.0.1"
+  },
+  "devDependencies": {
+    "expect": "^1.20.2",
+    "mocha": "^3.0.0"
   }
 }
